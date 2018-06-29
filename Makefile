@@ -2,7 +2,7 @@
 build:
 	GOOS=linux go build -o server
 	@eval $$(minikube docker-env) ;\
-	docker build -t test-app:v9111 .
+	docker build -t test-app:v1 .
 
 # create kubernetes cluster & service
 
